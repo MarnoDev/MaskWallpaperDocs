@@ -1,0 +1,59 @@
+/* 自定义封面样式 */
+.cover-main {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.cover-main .app-info {
+  flex: 1;
+  padding-right: 5%;
+}
+
+.cover-main .app-screenshots {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.cover-main .app-screenshots img {
+  max-width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cover-main h1 {
+  color: #fff;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.cover-main p {
+  color: #ccc;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cover-main .download-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.cover-main .download-btn {
+  background-color: #007AFF;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cover-main .download-btn:hover {
+  background-color: #0056b3;
+} 
