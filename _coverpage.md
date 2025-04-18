@@ -5,4 +5,4 @@
 [GitHub](https://github.com/yourusername/random_wallpaper)
 [开始阅读](#random-wallpaper)
 
-![logo](logo/logo.png) 
+![logo](../../file/logo/logo.png) 
