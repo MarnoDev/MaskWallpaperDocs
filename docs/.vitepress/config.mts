@@ -4,7 +4,10 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Mask Wallpaper",
   description:
-    "Welcome to Mask Wallpaper, which allows you to create a variety of wallpaper masks and change wallpapers quickly",
+    "Welcome to use Mask Wallpaper App, which allows you to create a variety of wallpaper masks and change wallpapers quickly",
+  head: [
+    ['link', { rel: 'icon', href: '/ic_launcher_round.png' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -16,6 +19,7 @@ export default defineConfig({
           { text: "Runtime API Examples", link: "/api-examples" },
         ],
       },
+      { text: "Changelog", link: "/changelog" }, // 新增导航链接
     ],
 
     sidebar: [
@@ -24,6 +28,12 @@ export default defineConfig({
         items: [
           { text: "Markdown Examples", link: "/markdown-examples" },
           { text: "Runtime API Examples", link: "/api-examples" },
+        ],
+      },
+      {
+        text: "其他",
+        items: [
+          { text: "Changelog", link: "/changelog" }, // 新增侧边栏链接
         ],
       },
     ],
