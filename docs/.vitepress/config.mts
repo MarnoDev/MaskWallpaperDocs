@@ -15,31 +15,31 @@ export default defineConfig({
       {
         text: "Guide",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "Introduction", link: "/introduction" },
+          { text: "Change Wallpaper", link: "/change-wallpaper" },
+          { text: "Wallpaper Mask", link: "/wallpaper-mask" },
+          { text: "Wallpaper Generator", link: "/wallpaper-generator" },
         ],
       },
       { text: "Changelog", link: "/changelog" }, 
-      { text: "About", link: "/changelog" }, 
+      { text: "About", link: "/about" }, 
     ],
     sidebar: [
+    
       {
         text: "Guide",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "Introduction", link: "/introduction" },
+          { text: "Change Wallpaper", link: "/change-wallpaper" },
+          { text: "Wallpaper Mask", link: "/wallpaper-mask" },
+          { text: "Wallpaper Generator", link: "/wallpaper-generator" },
         ],
       },
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
+
       {
         text: "Others",
         items: [
+          { text: "About", link: "/about" },
           { text: "Changelog", link: "/changelog" }, 
           { text: "User Agreement", link: "/agreement" }, 
           { text: "Privacy Policy", link: "/privacy" }, 
