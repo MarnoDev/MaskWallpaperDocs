@@ -7,7 +7,7 @@ hero:
   description: "Create and change wallpapers with ease"
   tagline: "Welcome to Mask Wallpaper, which allows you to create a variety of wallpaper masks and change wallpapers quickly"
   image:
-    src: /screenshot1.png
+    src: /ic_logo.png
     alt: Mask Wallpaper Logo
   actions:
     - theme: brand
